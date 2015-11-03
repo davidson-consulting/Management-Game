@@ -1,0 +1,152 @@
+.line, .line-med, .line-sm
+{
+	height: 1px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 2px rgba(0,0,0,1);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.line-med
+{
+	width: 80%;
+}
+
+#scoreboard
+{
+	background: url("../img/but.png") no-repeat;
+	background-position: center top;
+	background-size: 100%;
+}
+
+#score
+{
+	color: #FF0000;
+	text-align: center;
+	font-size: 25px;
+	background: #FFFFFF;
+	border-radius: 8px;
+	margin-bottom: 0px;
+}
+
+.no-padding
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.big-txt, .med-txt, #score, .box-title, .box-content
+{
+	font-family: "DINOffc Bold";
+	text-align: center;	
+}
+
+.big-txt, .med-txt, #score
+{
+	font-weight: 900;
+}
+
+.big-txt, .med-txt
+{
+	text-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
+	margin-top:12px;
+	margin-bottom: 0px;
+}
+
+.big-txt
+{
+	font-size: 18px;
+	margin-top:10px;
+}
+
+.med-txt
+{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+#recommandations
+{
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+
+.box
+{
+	border: solid 10px #FFFFFF;
+	background: rgba(255,255,255,0.8);
+}
+
+.box-title
+{
+	color: red;
+	font-size: 16px;
+	margin-bottom:0px;
+}
+
+.box-content
+{
+	font-size:12px;
+	margin: 0px 12px 5px 12px;
+}
+
+#social
+{
+	text-align: center;
+}
+
+/* SM */
+@media (min-width: 768px) {
+	.big-txt, .med-txt
+	{
+		margin-top:20px;
+	}
+
+	.big-txt
+	{
+		font-size: 45px;
+	}
+
+	.med-txt
+	{
+		font-size: 25px;
+	}
+
+	#scoreboard
+	{
+		background-size:557px;
+	}
+
+	#score
+	{
+		margin-left: 65px;
+		margin-right: 65px;
+		margin-top: 65px;
+		font-size: 50px;
+		padding: 15px 10px 10px 10px;
+	}
+
+	.line-sm
+	{
+		margin-top: 35px;
+	}
+
+	#recommandations
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.box-title
+	{
+		font-size: 18px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.box-content
+	{
+		font-size: 16px;
+		margin: 0px 50px 15px 50px;
+	}
+}

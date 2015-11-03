@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Management Game</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta property="og:title" content="The Management Game" />
+		<meta property="og:type" content="site" />
+		<meta property="og:url" content="http://managementgame.davidson.fr/" />
+		<meta property="og:image" content="http://managementgame.davidson.fr/img/MGGameLogo.png" />
+		<meta property="og:description" content="Bienvenue ! Ce questionnaire vous aidera à mieux comprendre les bonnes attitudes d'un manager moderne. A la fin du questionnaire, vous aurez la possibilité de connaître les insights à adopter pour devenir un meilleur manager !" />
+		<link href="css/jquery-ui.css" rel="stylesheet">
+		<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<img id="quest-mg-logo" src="img/management-game-logo.png"/>
+			</header>
+			<!--<header class="row">
+	            <div class="col-lg-12">
+    	            <img src="img/MGGameLogo.png" alt="Management Game Logo" />
+        	    </div>
+        	</header>-->
+        	<div class="quest-content">
+            	<div id="quest-panel" class="container">
+	                <div class="row">
+    	                <div class="col-lg-12">
+        	                <div class="row">
+            	                <div class="col-lg-12">
+                	                <form class="form-horizontal" method="POST" action="get" id="questionsForm">
+                    	                <fieldset class="form-group">
+                        	                <div class="col-lg-12">
+                            	                <p id="quest-form-header">
+                                	                Veuillez sélectionner <span class="underline">au moins</span> une réponse
+                                    	        </p>
+                                        	</div>
+                                    	</fieldset>
+                                	</form>
+                            	</div>
+                        	</div>
+                        	<div class="row" style="padding-bottom: 10px;">
+                            	<div id="progress-block" class="col-sm-6 col-xs-7">
+                                	<div id="progressbar"></div>
+                            	</div>
+                            	<div class="col-sm-offset-4 col-sm-2 col-xs-5">
+                                	<button class="btn btn-default" disabled="disabled">
+                                    	Suivant
+                                    	<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                                	</button>
+                            	</div>
+                        	</div>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-3 col-md-3">
+						<a href="http://www.greatplacetowork.fr">
+							<img id="gptw" src="img/gptw.png"/>
+						</a>
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<a href="http://www.ethikonsulting.com">
+							<img id="ethik" src="img/ethik.png"/>
+						</a>
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<a href="http://www.corporate-games.fr">
+							<img id="corp-games" src="img/corporate-games.png"/>
+						</a>
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<a href="http://www.davidson.fr">
+							<img id="dav" src="img/logo-dav.png"/>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<p>
+						Tous droits réservés Davidson consulting 2015 - 
+						<a id="dav-link" href="http://www.davidson.fr">www.davidson.fr</a>
+					</p>
+				</div>
+			</div>
+		</footer>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

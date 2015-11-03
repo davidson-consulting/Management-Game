@@ -1,0 +1,53 @@
+#content > div {
+    background: rgba(255,255,255,0.8);
+    box-shadow:-10px 10px 30px 0px #000000;
+}
+
+form > fieldset > div > p {
+    text-align:center;
+}
+
+form > fieldset > div > p > span {
+    text-decoration:underline;
+}
+
+form > fieldset fieldset {
+    padding-left:3%;
+    padding-right:3%;
+}
+
+form > fieldset fieldset p {
+    font-family:"DINOffc Bold";
+}
+
+form > fieldset fieldset label {
+    font-weight: 500;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#progress-block {
+    padding-bottom: 10px;
+    padding-left: 4%;
+    padding-top: 7px;
+    padding-bottom: 0px;
+}
+
+.ui-progressbar {
+    height: 20px;
+}
+
+.ui-progressbar .ui-progressbar-value {
+    height: 110%;
+}
+
+#progressbar .ui-progressbar-value {
+    background: #0B365F;
+}
+
+.ui-widget-content {
+    background: #A7BEB8;
+}

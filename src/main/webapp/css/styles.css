@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'DINOffc';
+    src: url('../ttf/DINOffc.ttf');
+}
+
+@font-face {
+    font-family: 'DINOffc Bold';
+    src: url('../ttf/DINOffc-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'DINOffc Black';
+    src: url('../ttf/DINOffc-Black.ttf');
+}
+
+#welcomeBoxText{
+    font-family: 'DINOffc';
+    color: #0B365F;
+}
+
+#div-gradient-dark{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+    position: static;
+    margin: -8px;
+}
+
+#div-gradient-clear{
+    /*background: -moz-linear-gradient(top, rgba(255,255,255,0.65) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.65)), color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.65) 0%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0.65) 0%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.65) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.65) 0%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6ffffff', endColorstr='#00000000',GradientType=0 );
+    position: static;
+    */
+
+    /*margin: -8px;*/
+    margin-top : 20px;
+}
+
+input.rounded {
+    border: 1px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    font-size: 20px;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+    font-family: DINOffc;
+}
+input.rounded:focus {
+    border-color: #339933;
+    font-family: DINOffc;
+}
+
+
+body {
+    background: url("../img/green.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'DINOffc';
+    color: #0B365F;
+}
+
+header img {
+    display:block;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:255px;
+}
+
+/*
+.container-fluid {
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+    position: static;
+}*/
+
+footer {
+    padding-top:10px;
+    /*maring: 50px;*/
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+    position: static;
+}
+
+footer img {
+    display:block;
+    margin-left: auto;
+    margin-right: 10px;
+    width:100%;
+}
+
+
+#gptw-logo {
+    max-width:150px;
+    max-height:150px;
+    width:25%;
+    margin-bottom:15px;
+}
+
+#ethik-logo {
+    max-width:229px;
+    max-height:23px;
+    margin-bottom:27px;
+}
+
+#corporate-logo {
+    max-width:225px;
+    max-height:150px;
+}
+
+#dav-logo {
+    max-width:379px;
+    max-height:150px;
+}
+
+/*new CSS for footer img*/
+/*
+.background_gptw{
+    background-image: url("../img/gptw.png");
+    background-repeat: no-repeat;
+    background-position: center bottom; 
+    background-size: 45px;
+    height: 100px;
+}
+
+.background_ethik{
+    background-image:url("../img/ethik.png");
+    background-repeat: no-repeat;
+    background-position: center bottom; 
+    height: 100px;
+}
+
+.background_corporate{
+    background-image:url("../img/corporate-games-logo.png");
+    background-repeat: no-repeat;
+    background-position: center bottom; 
+    height: 100px;
+}
+
+.background_dav{
+    background-image:url("../img/logo-dav.png");
+    background-repeat: no-repeat;
+    background-position: center bottom; 
+    background-size: 90px ;
+    height: 100px;
+}
+.background_bestWorkplaces{
+    background-image:url("../img/logo-bestWorkplaces.png");
+    background-repeat: no-repeat;
+    background-position: center bottom; 
+    background-size: 140px;
+    height: 100px;
+}
+*/
+#table_footer{
+    margin-bottom: 50px;
+}
+
+#table_footer tr td{
+    text-align: left;
+    vertical-align: text-bottom;
+
+}
+
+
+#legal-notice {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#legal-notice > a:link, #legal-notice > a:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/* mettre le footer en base de la page*/
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}

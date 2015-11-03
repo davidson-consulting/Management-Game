@@ -1,0 +1,412 @@
+* {
+	margin: 0; /* sticky footer */
+}
+
+html, body {
+	height: 100%; /* sticky footer */
+}
+
+body {
+	background: url('../img/green.png') no-repeat center center fixed; /* bg img */
+	-webkit-background-size: cover; /* stretch bg img */
+	-moz-background-size: cover; /* stretch bg img */
+	-o-backgroubd-size: cover; /* stretch bg img */
+	-ms-background-size: cover; /* stretch bg img */
+	background-size: cover; /* stretch bg img */
+	color: #0B365F; /* text color */
+	font-family: 'Verdana', 'Arial'; /* font family */
+}
+
+#wrap {
+	min-height: 100%; /* sticky footer */
+	margin-bottom: -200px; /* sticky footer */
+}
+
+#wrap:after {
+	content: ""; /* sticky footer */
+	display: block; /* sticky gooter */
+}
+
+footer, #wrap:after {
+	height: 200px; /* sticky footer */
+}
+
+/* MANAGEMENT GAME LOGO */
+#index-mg-logo, #quest-mg-logo, #res-mg-logo {
+	display:block; /* centering */
+	margin-left: auto; /* centering */
+	margin-right: auto; /* centering */
+}
+
+#index-mg-logo {
+	max-width: 1280px; /* responsive */
+	min-width: 255px; /* responsive */
+	width: 100%; /* responsive */
+}
+
+#index-caption {
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 3px 1px 6px #444;
+}
+
+#index-caption .white {
+	color: #FFFFFF;
+}
+
+.box {
+	background: rgba(255,255,255,0.8);
+	border: 5px solid #FFFFFF;
+	text-align: center;
+	padding: 7px;
+	box-shadow: 2px 3px 15px #000;
+}
+
+.rounded {
+	border: 1px solid #CCC;
+	box-shadow: 2px 2px 3px #666;
+	padding: 4px 7px;
+}
+
+#index-form {
+	text-align: center;
+}
+
+footer {
+	/* footer black gradient */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+footer img {
+	width: 100%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#corp-games, #dav {
+	max-height: 150px;
+}
+
+#gptw {
+	/*max-width: 72px;*/
+	width:25%;
+}
+
+#ethik {
+	max-width: 202px;
+}
+
+#corp-games {
+	max-width: 225px;
+}
+
+#dav {
+	max-width: 375px;
+}
+
+#dav-link, #dav-link:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#quest-content p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#quest-mg-logo, #res-mg-logo {
+	margin-bottom: 10px;
+}
+
+#quest-panel {
+	background: rgba(255,255,255,0.8);
+	box-shadow: -10px 10px 30px 0px #000000;
+}
+
+#quest-form-header {
+	text-align: center;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+#questionsForm > fieldset fieldset {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#questionsForm > fieldset fieldset label {
+	font-weight: bold;
+}
+
+#progress-block {
+	padding-bottom: 10px;
+	padding-left: 4%;
+	padding-top: 7px;
+	padding-bottom: 0px;
+}
+
+.ui-progressbar {
+	height: 20px;
+}
+
+.ui-progressbar .ui-progressbar-value {
+	height: 110%;
+}
+
+#progressbar .ui-progressbar-value {
+	background: #0B365F;
+}
+
+.ui-widget-content {
+	background: #A7BEB8;
+}
+
+.line, .line-med, .line-sm
+{
+	height: 1px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 2px rgba(0,0,0,1);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.line-med
+{
+	width: 80%;
+}
+
+#scoreboard
+{
+	background: url("../img/but.png") no-repeat;
+	background-position: center top;
+	background-size: 100%;
+}
+
+#score
+{       line-height: 65%;
+	color: #FF0000;
+	text-align: center;
+	font-size: 25px;
+	background: #FFFFFF;
+	border-radius: 8px;
+	margin-bottom: 0px;
+}
+
+.no-padding
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.big-txt, .med-txt, #score, .box-title, .box-content
+{
+	text-align: center;	
+}
+
+.big-txt, .med-txt, #score
+{
+	font-weight: 900;
+}
+
+.big-txt, .med-txt
+{
+	text-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
+	margin-top:12px;
+	margin-bottom: 0px;
+}
+
+.big-txt
+{
+	font-size: 18px;
+	margin-top:10px;
+}
+
+.med-txt
+{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+#recommandations
+{
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+
+.res-box
+{
+	border: solid 10px #FFFFFF;
+	background: rgba(255,255,255,0.8);
+}
+
+.box-title
+{
+	color: red;
+	font-size: 16px;
+	margin-bottom:0px;
+}
+
+.box-content
+{
+	font-size:12px;
+	margin: 0px 12px 5px 12px;
+}
+
+#social
+{
+	text-align: center;
+}
+
+/* SM MD LG */
+@media (min-width:768px) {
+
+	#index-caption {
+		font-size: 28px; /* header caption size on lg devices */
+	}
+
+	.rounded {
+		border-radius: 8px; /* rounded corner on text boxes */
+		font-size: 20px; /* text box font size on lg devices */
+	}
+
+	#first-name {
+		float: right; /* push first name text box to the right */
+	}
+
+	#last-name {
+		float: left; /* push last name text box to the left */
+	}
+
+	#index-form input {
+		margin-top: 18px; /* spacing between input rows */
+	}
+
+	#gptw {
+		margin-top: 25%; /* gptw logo valign */
+	}
+
+	#ethik {
+		margin-top: 38%; /* ethik logo valign */
+	}
+
+	#dav {
+		margin-top: 20%; /* dav logo valign */
+	}
+
+	.big-txt, .med-txt
+	{
+		margin-top:20px;
+	}
+
+	.big-txt
+	{
+		font-size: 40px;
+	}
+
+	.med-txt
+	{
+		font-size: 25px;
+	}
+
+	#scoreboard
+	{
+		background-size:557px;
+	}
+
+	#score
+	{
+		margin-left: 65px;
+		margin-right: 65px;
+		margin-top: 65px;
+		font-size: 50px;
+		padding: 15px 10px 10px 10px;
+	}
+
+	.line-sm
+	{
+		margin-top: 35px;
+	}
+
+	#recommandations
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.box-title
+	{
+		font-size: 18px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.box-content
+	{
+		font-size: 16px;
+		margin: 0px 50px 15px 50px;
+	}
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+
+	#gptw {
+		margin-top: 30%;
+	}
+
+	#ethik {
+		margin-top: 45%;
+	}
+
+	#dav {
+		margin-top: 30%;
+	}
+}
+
+/* XS */
+@media (max-width: 767px) {
+
+	#index-caption {
+		font-size: small; /* header caption size on xs devices */
+	}
+
+	.rounded {
+		border-radius: 6px; /* rounded corner on text boxes */
+		font-size: 16px; /* text box font size on xs devices */
+	}
+
+	#index-form input {
+		margin-top: 8px; /* spacing between input rows */
+	}
+
+	#first-name, #last-name, #entreprise {
+		width: 100%; /* resize inputs on xs devices to fit the whole width */
+	}
+
+	#gptw {
+		margin-top: 35%; /* gptw logo valign */
+	}
+
+	#ethik {
+		margin-top: 45%; /* ethik logo valign */
+	}
+
+	#dav {
+		margin-top: 20%; /* dav logo valign */
+	}
+
+	.col-xs-3 {
+		padding-right: 2px;
+		padding-left: 2px;
+	}
+}
