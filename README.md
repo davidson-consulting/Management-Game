@@ -3,8 +3,7 @@
 ##Description du projet :
 
 
-Le portail « Management Game » permet de vérifier que certaines postures managériales sont bien mises en œuvre au sein d’équipes, 
-avec un système de notation et des conseils délivrés aux managers. 
+Le portail « Management Game » permet de vérifier que certaines postures managériales sont bien mises en œuvre au sein des équipes en y incluant un système de notation et de conseils délivrés aux managers. 
 
 
 ##Dépendances :
